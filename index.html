@@ -36,7 +36,7 @@ background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='htt
 /* ── NAV ── */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 5rem;height:68px;background:rgba(10,10,10,.92);backdrop-filter:blur(24px);border-bottom:1px solid var(--border);}
 .nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;}
-.nav-logo img{height:38px;width:38px;object-fit:contain;}
+.nav-logo img{height:48px;width:48px;object-fit:contain;}
 .logo-text{font-family:'Syne',sans-serif;font-weight:800;font-size:1.3rem;}
 .logo-text .nim{color:var(--white);}
 .logo-text .kora{color:var(--orange);}
@@ -208,7 +208,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 footer{background:var(--dark);border-top:1px solid var(--border);padding:2.2rem 0;}
 .foot-inner{display:flex;align-items:center;justify-content:space-between;gap:2rem;}
 .foot-logo{display:flex;align-items:center;gap:9px;text-decoration:none;}
-.foot-logo img{height:32px;}
+.foot-logo img{height:44px;width:44px;object-fit:contain;}
 .foot-logo-txt{font-family:'Syne',sans-serif;font-weight:800;font-size:1.05rem;}
 .fl-nim{color:var(--white);}
 .fl-kora{color:var(--orange);}
@@ -233,8 +233,7 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:2.2rem 
 
 @media(max-width:960px){
   nav{padding:0 1rem;height:60px;}
-  .nav-logo img{height:32px;width:32px;}
-  .logo-text{font-size:1.05rem;}
+  .nav-logo img{height:42px;width:42px;}
   .nav-links{display:none;}
   .nav-right{gap:.7rem;}
   .lang-toggle{font-size:.7rem;}
@@ -278,7 +277,6 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:2.2rem 
 <nav>
   <a class="nav-logo" href="#">
     <img src="logo.png" alt="NimKora">
-    <div class="logo-text"><span class="nim">Nim</span><span class="kora">Kora</span></div>
   </a>
   <ul class="nav-links">
     <li><a href="#services">Services</a></li>
@@ -681,7 +679,6 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:2.2rem 
       <div>
         <a class="foot-logo" href="#">
           <img src="logo.png" alt="NimKora">
-          <div class="foot-logo-txt"><span class="fl-nim">Nim</span><span class="fl-kora">Kora</span></div>
         </a>
         <div class="foot-sub">Digitalisons la Guinée, une entreprise à la fois.</div>
       </div>
